@@ -52,3 +52,5 @@ Prosím, dodržujte připravenou strukturu a pište vaše vypracování pouze do
 ````
 
 jinak automatický nástroj na vyhodnocení nepozná vaše řešení a dostanete 0 bodů.
+
+Přidávám změnu ppro vyzkoušení příkazu git pull
