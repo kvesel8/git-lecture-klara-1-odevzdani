@@ -11,7 +11,8 @@
 ### Řešení 1
 
 ```bash
-
+git commit -m "Initial commit"
+git log
 ```
 
 ## Cvičení 2
@@ -23,7 +24,10 @@
 ### Řešení 2
 
 ```bash
-
+(vytvoreni noveho souboru v projektu)
+git add Uran.txt
+git commit -m "Add Uran"
+git log
 ```
 
 ## Cvičení 3
@@ -35,7 +39,10 @@
 ### Řešení 3
 
 ```bash
-
+(pridani textu do souboru Merkur.txt)
+git add Merkur.txt
+git commit -m "Update first test"
+git log
 ```
 
 ## Cvičení 4
@@ -47,7 +54,10 @@
 ### Řešení 4
 
 ```bash
-
+(provedeni uprav v textovych souborech)
+git add --all
+git commit --all
+git log
 ```
 
 ## Cvičení 5
@@ -59,5 +69,9 @@
 ### Řešení 5
 
 ```bash
-
+(vytvoreni noveho textoveho dokumentu misto Uran.txt)
+git add novy-dokument.txt
+git commit -m "Add Uran"
+git commit --amend
+(zmena komentare na "Clear Uran file")
 ```
