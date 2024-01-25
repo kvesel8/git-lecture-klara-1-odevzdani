@@ -11,7 +11,14 @@
 ### Řešení 1
 
 ```bash
-
+git branch test-branch
+git checkout test-branch
+(vytvoreni Neptun.txt)
+git add Neptun.txt
+git commit -m "pridani Neptun souboru"
+git checkout master
+git status
+git log
 ```
 
 ## Cvičení 2
@@ -24,7 +31,9 @@
 ### Řešení 2
 
 ```bash
-
+git checkout -b feature/test-branch
+git add Pluto.txt
+git commit -m "novy soubor pluto"
 ```
 
 ## Cvičení 3
@@ -37,7 +46,10 @@
 ### Řešení 3
 
 ```bash
-
+git checkout master
+git add Europa.txt
+git checkout -b feature/europa-file
+git commit  
 ```
 
 ## Cvičení 4
@@ -48,7 +60,9 @@
 ### Řešení 4
 
 ```bash
-
+git checkout feature/europa-file
+git branch test-branch
+(fatal: a branch named 'test-branch' already exists)
 ```
 
 ## Cvičení 5
@@ -58,7 +72,8 @@
 ### Řešení 5
 
 ```bash
-
+git branch
+(aktivní větev je napsaná barevně a tučně a má u sebe hvězdičku)
 ```
 
 ## Cvičení 6
@@ -69,5 +84,6 @@
 ### Řešení 6
 
 ```bash
-
+git branch test-feature
+git branch --delete test-feature
 ```
