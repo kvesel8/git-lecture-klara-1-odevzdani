@@ -13,5 +13,15 @@
 ### Řešení 1
 
 ```bash
-
+git config --global user.name "klara vesela"
+git config --global user.email "k.vesel8@seznam.cz"
+git config --list
+git config --local user.name "Klara"
+git config --local user.email "Klara856@seznam.cz"
+git checkout -b new-collaborator
+git status
+git add Titan.txt
+git status
+git commit -m "pridani textoveho souboru"
+git log
 ```
