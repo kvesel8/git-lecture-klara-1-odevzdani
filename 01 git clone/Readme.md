@@ -8,7 +8,7 @@
 ### Řešení 1
 
 ```bash
-
+git clone https://github.com/KUTlime/Git-cheatsheet
 ```
 
 ## Cvičení 2
@@ -20,7 +20,10 @@
 ### Řešení 2
 
 ```bash
-
+git clone https://github.com/kvesel8/test-repository-GIT-kurz
+(pridani textu do readme.md)
+git fetch
+git diff origin
 ```
 
 ## Cvičení 3
