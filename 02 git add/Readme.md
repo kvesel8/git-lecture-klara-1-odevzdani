@@ -11,7 +11,10 @@
 ### Řešení 1
 
 ```bash
-
+(vytvoreni souboru v projektu)
+git status
+git add Merkur.txt
+git status
 ```
 
 ## Cvičení 2
@@ -22,7 +25,10 @@
 ### Řešení 2
 
 ```bash
-
+(vytvoreni novych souboru v projektu)
+git status
+git add --all
+git status
 ```
 
 ## Cvičení 3
@@ -34,5 +40,7 @@
 ### Řešení 3
 
 ```bash
-
+(vytvoreni souboru v projektu)
+git add Jupiter.txt
+git status
 ```
