@@ -47,5 +47,6 @@ Uveďte všechny příkazy, které musíte zadat do příkazové řádky. Citliv
 ### Řešení 4
 
 ```bash
-
+ssh-keygen
+ssh -T git@github.com
 ```
