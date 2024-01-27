@@ -34,7 +34,8 @@ git diff origin
 ### Řešení 3
 
 ```bash
-
+git clone -b clone-exercises https://github.com/kvesel8/test-repository-GIT-kurz/tree/clone-exercises
+git remote show origin
 ```
 
 ## Cvičení 4
