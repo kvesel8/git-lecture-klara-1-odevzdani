@@ -25,7 +25,7 @@ git log
 
 ```bash
 (vytvoreni noveho souboru v projektu)
-git add Uran.txt
+git add "03 git commit/Uran.txt.txt"
 git commit -m "Add Uran"
 git log
 ```
@@ -40,7 +40,7 @@ git log
 
 ```bash
 (pridani textu do souboru Merkur.txt)
-git add Merkur.txt
+git add "02 git add/Merkur.txt"
 git commit -m "Update first test"
 git log
 ```
