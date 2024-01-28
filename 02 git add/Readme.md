@@ -13,7 +13,7 @@
 ```bash
 (vytvoreni souboru v projektu)
 git status
-git add Merkur.txt
+git add "02 git add/Merkur.txt"
 git status
 ```
 
@@ -27,7 +27,7 @@ git status
 ```bash
 (vytvoreni novych souboru v projektu)
 git status
-git add --all
+git add --all "02 git add/"	
 git status
 ```
 
@@ -41,6 +41,7 @@ git status
 
 ```bash
 (vytvoreni souboru v projektu)
-git add Jupiter.txt
+git add "02 git add/Jupiter.txt"
 git status
+(po smazani nezaindexovaneho souboru Saturn.txt git tento soubor vůbec nedetekuje)
 ```
