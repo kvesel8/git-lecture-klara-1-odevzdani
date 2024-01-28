@@ -50,6 +50,7 @@ git checkout master
 git add Europa.txt
 git checkout -b feature/europa-file
 git commit  
+soubor skončil ve větvi feature/europa-file
 ```
 
 ## Cvičení 4
@@ -85,5 +86,7 @@ git branch
 
 ```bash
 git branch test-feature
+git branch
 git branch --delete test-feature
+git branch
 ```
