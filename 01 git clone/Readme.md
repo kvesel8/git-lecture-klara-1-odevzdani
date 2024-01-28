@@ -49,6 +49,7 @@ Uveďte všechny příkazy, které musíte zadat do příkazové řádky. Citliv
 ```bash
 ssh-keygen
 (vygenerování public/private key a uložení do souborů - rsa, rsa.pub)
+(přidání SSH public klíče do nastavení v profilu na githubu)
 ssh -T git@github.com
-
+git clone git@github.com:KUTlime/git-lecture-klara-1.git
 ```
