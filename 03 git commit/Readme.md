@@ -55,7 +55,7 @@ git log
 
 ```bash
 (provedeni uprav v textovych souborech)
-git add --all
+git add --all "02 git add/"
 git commit --all
 git log
 ```
@@ -70,7 +70,7 @@ git log
 
 ```bash
 (vytvoreni noveho textoveho dokumentu misto Uran.txt)
-git add novy-dokument.txt
+git add "03 git commit/novy-dokument.txt"
 git commit -m "Add Uran"
 git commit --amend
 (zmena komentare na "Clear Uran file")
