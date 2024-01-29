@@ -11,7 +11,10 @@
 ### Řešení 1
 
 ```bash
-
+ git branch
+ git checkout main
+ git merge test-branch
+ 
 ```
 
 ## Cvičení 2
