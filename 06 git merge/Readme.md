@@ -14,6 +14,11 @@
  git branch
  git checkout main
  git merge test-branch
+ git merge feature/test-branch
+ git merge feature/europa-file
+ git merge feature/bug-fix
+ git push upstream main
+ (smazani sloučených větví)
  
 ```
 
@@ -29,5 +34,17 @@
 ### Řešení 2
 
 ```bash
-
+ git branch feature/new-moon-files
+ git checkout feature/new-moon-files
+ (vytvoreni souboru Charon.txt a Mesic.txt)
+ git add --all "06 git merge"
+ git commit -m "pridani souboru Mesic a Charon"
+ git add "06 git merge/Charon.txt"
+ git commit -m "pridani textu do Charon.txt"
+ git add "06 git merge/Mesic.txt"
+ git commit -m "pridani textu do Mesic.txt"
+ git checkout main
+ git merge --squash feature/new-moon-files
+ git commit -m "slouceni vsech zmen do jednoho komitu z vetve feature/new-moon-files"
+ git branch -D feature/new-moon-files
 ```
