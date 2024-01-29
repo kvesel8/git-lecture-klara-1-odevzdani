@@ -26,5 +26,12 @@ Pracujte se repozitářem ze cvičení `git merge`.
 ### Řešení 2
 
 ```bash
-
+ (vytvoreni noveho adresare s nazvem Klient 2)
+ git clone https://github.com/kvesel8/git-lecture-klara-1-odevzdani
+ (vytvoreni souboru Ganymed.txt na hlavni větvi)
+ git add "07 git pull/Ganymed.txt"
+ git commit -m "pridani souboru Ganymed.txt"
+ git push
+ git pull upstream main
+ (v původním adresáři jsou přítomny změny ze složky Klient 2) 
 ```
