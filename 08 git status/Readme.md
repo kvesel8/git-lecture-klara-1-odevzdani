@@ -9,5 +9,8 @@
 ### Řešení 1
 
 ```bash
-
+ git status
+ git diff
+ git diff --staged
+ git diff --cached
 ```
