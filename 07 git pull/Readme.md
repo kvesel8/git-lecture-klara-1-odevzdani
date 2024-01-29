@@ -9,7 +9,7 @@ Pracujte se repozitářem ze cvičení `git merge`.
 ### Řešení 1
 
 ```bash
-
+ git pull upstream main
 ```
 
 ## Cvičení 2
