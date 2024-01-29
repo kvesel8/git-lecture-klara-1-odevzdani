@@ -11,7 +11,10 @@
  git config --global --add safe.directory "C:\Users\User\GITkurz\git-lecture-klara-1"
  git remote add upstream https://github.com/kvesel8/git-lecture-klara-1-odevzdani
  git push upstream main
-
+ git push upstream test-branch
+ git push upstream feature/europa-file
+ git push upstream feature/test-branch
+ git push upstream feature/bug-fix
 ```
 
 ## Cvičení 2
