@@ -9,5 +9,7 @@
 ### Řešení 1
 
 ```bash
-
+ git log --all
+ git log main
+ git log "03 git commit/Uran.txt"
 ```
